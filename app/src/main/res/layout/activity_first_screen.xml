@@ -11,7 +11,7 @@
     tools:context="com.visa.android.integration.checkoutsampleapp.app.FirstScreen">
 
     <TextView
-        android:text="Welcome "
+        android:text="Welcome, this app lets you pay for your drinks.  "
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -26,10 +26,21 @@
         android:text="Enter The App"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="114dp"
         android:id="@+id/button"
+        android:onClick="goToNext"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="152dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
         android:layout_below="@+id/textView"
-        android:layout_toRightOf="@+id/textView"
-        android:layout_toEndOf="@+id/textView"
-        android:onClick="goToNext" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/email"
+        android:hint="Email please" />
+
 </RelativeLayout>

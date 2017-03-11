@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.visa.checkout.VisaLibrary;
@@ -40,6 +41,7 @@ public class PaymentStartActivity extends FragmentActivity implements VisaExpres
         initializeVisaCheckoutSdk();
 
         buttonType = getIntent().getExtras().getInt("buttonType");
+        String total = getIntent().getExtras().getString("totalAmount");
         if(buttonType == ConfigurePaymentActivity.EXO) {
             setTitle("Express Checkout");
             setContentView(R.layout.activity_main_exo);
@@ -49,6 +51,10 @@ public class PaymentStartActivity extends FragmentActivity implements VisaExpres
         }else if(buttonType == ConfigurePaymentActivity.VXO) {
             setTitle("Visa Checkout");
             setContentView(R.layout.activity_main_vxo);
+            TextView v1= (TextView)findViewById(R.id.totalCost);
+            v1.setText(total);
+            v1.setKeyListener(null);
+
         }else if(buttonType == ConfigurePaymentActivity.CUSTOM) {
             setTitle("Custom");
             setContentView(R.layout.activity_main_custom);

@@ -18,8 +18,5 @@ public class FirstScreen extends Activity {
     {
         Intent intent = new Intent(this,listDrinksActivity.class);
         startActivity(intent);
-
-
-
     }
 }

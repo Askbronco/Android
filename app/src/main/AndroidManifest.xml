@@ -53,9 +53,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".ConfigurePaymentActivity"
-            android:screenOrientation="portrait">
-
-        </activity>
+            android:screenOrientation="portrait"></activity>
 
         <!-- Activities responsible for gathering payment info via card.io -->
         <activity
@@ -72,15 +70,17 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <activity android:name=".FirstScreen" android:screenOrientation="portrait">
+        <activity
+            android:name=".FirstScreen"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-            </activity>
-        <activity android:name=".listDrinksActivity"></activity>
+        </activity>
+        <activity android:name=".listDrinksActivity" />
+        <activity android:name=".addMerchantManually"></activity>
     </application>
 
 </manifest>

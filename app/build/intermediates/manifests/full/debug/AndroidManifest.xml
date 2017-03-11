@@ -59,8 +59,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="com.visa.android.integration.checkoutsampleapp.app.ConfigurePaymentActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
 
         <!-- Activities responsible for gathering payment info via card.io -->
         <activity
@@ -87,6 +86,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.visa.android.integration.checkoutsampleapp.app.listDrinksActivity" />
+        <activity android:name="com.visa.android.integration.checkoutsampleapp.app.addMerchantManually" />
         <activity
             android:name="com.visa.checkout.VisaActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"

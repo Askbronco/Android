@@ -12,31 +12,47 @@
 
 
     <EditText
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/merchantName"
-        android:layout_weight="1"
-        android:text="Merchant name "
-        android:layout_width="wrap_content" />
-
-    <Button
-        android:text="Click after confirm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/price"
-        android:id="@+id/button2"
-        android:onClick="addDrink" />
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:id="@+id/seatID"
+        android:hint="Seat ID" />
 
     <EditText
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/price"
-        android:layout_weight="1"
-        android:text="Price "
-        android:layout_below="@+id/merchantName"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_marginTop="51dp"
+        android:id="@+id/merchantID"
+        android:hint="MerchantID"
+        android:layout_below="@+id/seatID"
+        android:layout_alignLeft="@+id/seatID"
+        android:layout_alignStart="@+id/seatID" />
 
+    <Button
+        android:text="Confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp"
+        android:id="@+id/Confirm"
+        android:onClick="confirmSeat"
+        android:layout_below="@+id/merchantID"
+        android:layout_alignLeft="@+id/merchantID"
+        android:layout_alignStart="@+id/merchantID"
+        android:layout_marginTop="107dp" />
+
+    <TextView
+        android:text="If no QR code, add manually"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
