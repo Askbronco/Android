@@ -8,12 +8,12 @@ package com.google.android.gms;
 
 public final class R {
 	public static final class attr {
-		public static final int adSize = 0x7f01001f;
-		public static final int adSizes = 0x7f010020;
-		public static final int adUnitId = 0x7f010021;
-		public static final int circleCrop = 0x7f0100a7;
-		public static final int imageAspectRatio = 0x7f0100a6;
-		public static final int imageAspectRatioAdjust = 0x7f0100a5;
+		public static final int adSize = 0x7f010021;
+		public static final int adSizes = 0x7f010022;
+		public static final int adUnitId = 0x7f010023;
+		public static final int circleCrop = 0x7f0100db;
+		public static final int imageAspectRatio = 0x7f0100da;
+		public static final int imageAspectRatioAdjust = 0x7f0100d9;
 	}
 	public static final class color {
 		public static final int common_action_bar_splitter = 0x7f0c0057;
@@ -26,30 +26,30 @@ public final class R {
 		public static final int common_signin_btn_light_text_disabled = 0x7f0c005e;
 		public static final int common_signin_btn_light_text_focused = 0x7f0c005f;
 		public static final int common_signin_btn_light_text_pressed = 0x7f0c0060;
-		public static final int common_signin_btn_text_dark = 0x7f0c0095;
-		public static final int common_signin_btn_text_light = 0x7f0c0096;
+		public static final int common_signin_btn_text_dark = 0x7f0c00a7;
+		public static final int common_signin_btn_text_light = 0x7f0c00a8;
 	}
 	public static final class drawable {
-		public static final int common_full_open_on_phone = 0x7f020103;
-		public static final int common_ic_googleplayservices = 0x7f020104;
+		public static final int common_full_open_on_phone = 0x7f020108;
+		public static final int common_ic_googleplayservices = 0x7f020109;
 	}
 	public static final class id {
-		public static final int adjust_height = 0x7f0d001c;
-		public static final int adjust_width = 0x7f0d001d;
-		public static final int none = 0x7f0d000e;
-		public static final int normal = 0x7f0d000a;
-		public static final int wrap_content = 0x7f0d0013;
+		public static final int adjust_height = 0x7f0d0036;
+		public static final int adjust_width = 0x7f0d0037;
+		public static final int none = 0x7f0d0010;
+		public static final int normal = 0x7f0d000c;
+		public static final int wrap_content = 0x7f0d0020;
 	}
 	public static final class integer {
-		public static final int google_play_services_version = 0x7f0b001a;
+		public static final int google_play_services_version = 0x7f0b001c;
 	}
 	public static final class raw {
 		public static final int gtm_analytics = 0x7f050001;
 	}
 	public static final class string {
-		public static final int accept = 0x7f060236;
-		public static final int auth_google_play_services_client_facebook_display_name = 0x7f060238;
-		public static final int auth_google_play_services_client_google_display_name = 0x7f060239;
+		public static final int accept = 0x7f060243;
+		public static final int auth_google_play_services_client_facebook_display_name = 0x7f060246;
+		public static final int auth_google_play_services_client_google_display_name = 0x7f060247;
 		public static final int common_android_wear_notification_needs_update_text = 0x7f060013;
 		public static final int common_android_wear_update_text = 0x7f060014;
 		public static final int common_android_wear_update_title = 0x7f060015;
@@ -80,21 +80,21 @@ public final class R {
 		public static final int common_google_play_services_updating_text = 0x7f06002e;
 		public static final int common_google_play_services_updating_title = 0x7f06002f;
 		public static final int common_open_on_phone = 0x7f060030;
-		public static final int create_calendar_message = 0x7f060240;
-		public static final int create_calendar_title = 0x7f060241;
-		public static final int decline = 0x7f060242;
-		public static final int store_picture_message = 0x7f060245;
-		public static final int store_picture_title = 0x7f060246;
+		public static final int create_calendar_message = 0x7f060250;
+		public static final int create_calendar_title = 0x7f060251;
+		public static final int decline = 0x7f060252;
+		public static final int store_picture_message = 0x7f060255;
+		public static final int store_picture_title = 0x7f060256;
 	}
 	public static final class style {
-		public static final int Theme_IAPTheme = 0x7f0a00f5;
+		public static final int Theme_IAPTheme = 0x7f090110;
 	}
 	public static final class styleable {
-		public static final int[] AdsAttrs = { 0x7f01001f, 0x7f010020, 0x7f010021 };
+		public static final int[] AdsAttrs = { 0x7f010021, 0x7f010022, 0x7f010023 };
 		public static final int AdsAttrs_adSize = 0;
 		public static final int AdsAttrs_adSizes = 1;
 		public static final int AdsAttrs_adUnitId = 2;
-		public static final int[] LoadingImageView = { 0x7f0100a5, 0x7f0100a6, 0x7f0100a7 };
+		public static final int[] LoadingImageView = { 0x7f0100d9, 0x7f0100da, 0x7f0100db };
 		public static final int LoadingImageView_circleCrop = 2;
 		public static final int LoadingImageView_imageAspectRatio = 1;
 		public static final int LoadingImageView_imageAspectRatioAdjust = 0;

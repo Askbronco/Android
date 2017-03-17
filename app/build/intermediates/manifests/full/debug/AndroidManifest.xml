@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="23" />
+        android:minSdkVersion="11"
+        android:targetSdkVersion="24" />
 
     <!-- Permissions needed by Visa XO SDK -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -41,7 +41,6 @@
 
     <application
         android:allowBackup="false"
-        android:icon="@drawable/ic_vxo_sample_app"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
 

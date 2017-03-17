@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.*;
 import android.content.*;
 
+
 public class FirstScreen extends Activity {
 
     @Override
@@ -17,6 +18,14 @@ public class FirstScreen extends Activity {
     public void goToNext(View view)
     {
         Intent intent = new Intent(this,listDrinksActivity.class);
+       // Intent intent = new Intent(this,com.google.android.gms.samples.vision.barcodereader.MainActivity.class);
+
         startActivity(intent);
+    }
+
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        Intent intent = new Intent(this,listDrinksActivity.class);
+        startActivity(intent);
+
     }
 }

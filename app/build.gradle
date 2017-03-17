@@ -8,15 +8,16 @@ buildscript {
     }
 }
 
+
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion '24.0.3'
+    compileSdkVersion 24
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
-        minSdkVersion 9
-        targetSdkVersion 23
+        minSdkVersion 11
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
     }
@@ -43,4 +44,11 @@ dependencies {
     compile(name: 'play-services-ads-8.1.0', ext: 'aar')
     compile 'com.android.support:support-v4:23.4.0'
     compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:support-v4:24.2.0'
+    // Important - the CameraSource implementation in this project requires version 8.1 or higher.
+    compile 'com.android.support:design:24.2.0'
+    // http library used for async calls
+    compile 'com.loopj.android:android-async-http:1.4.9'
+   // compile project(":app-debug")
+
 }

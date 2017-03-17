@@ -42,4 +42,5 @@
         android:layout_marginTop="24dp"
         android:id="@+id/email"
         android:hint="Email please" />
+
 </RelativeLayout>
